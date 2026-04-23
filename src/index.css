@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #03214e;
+  --color-accent: #d69f38;
+  --color-bg-light: #f4f7fa;
+  --color-text-muted: #6c757d;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-[1200px] mx-auto px-5;
+  }
+
+  .btn-primary {
+    @apply inline-block bg-accent text-primary px-6 py-3 rounded-lg font-semibold text-center cursor-pointer border-2 border-transparent transition-all duration-300 hover:bg-primary hover:text-white hover:border-accent;
+  }
+}
+@keyframes shimmer {
+  0% {
+    transform: translateX(-150%) skewX(-20deg);
+  }
+  100% {
+    transform: translateX(150%) skewX(-20deg);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 0.8s ease-in-out forwards;
+} /* Swiper Paginatsiya nuqtalari */
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.2) !important;
+  opacity: 1 !important;
+  width: 8px !important;
+  height: 8px !important;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #d69f38 !important;
+  width: 35px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 0 15px rgba(214, 159, 56, 0.4);
+}
+
+/* Navigatsiya tugmalari (Next/Prev) */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 60px !important;
+  height: 60px !important;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: #d69f38 !important;
+  transition: all 0.4s ease;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 18px !important;
+  font-weight: 900;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: #d69f38;
+  color: white !important;
+  border-color: #d69f38;
+  box-shadow: 0 0 30px rgba(214, 159, 56, 0.3);
+}
+
+/* Markaziy slayddan boshqalarni xiralashtirish */
+.swiper-slide:not(.swiper-slide-active) {
+  filter: blur(2px);
+  pointer-events: none;
+}

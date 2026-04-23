@@ -25,12 +25,13 @@ Professional ta'lim markazi uchun mo'ljallangan, **Lux Modern** dizayn tizimidag
 
 ### ⚡ Backend Infrastructure
 
-- **Framework:** `FastAPI` (Python)
+- **Stak:** `SupaBase `
 - **ORM:** `SQLAlchemy`
 - **Database:** `PostgreSQL`
-- **Auth:** `JWT` (JSON Web Tokens)
+- **Auth:** `JWT`
 
 ---
 
 **Designed with 🖤 by Fayozbek Baxromov**
+
 # MySchool
