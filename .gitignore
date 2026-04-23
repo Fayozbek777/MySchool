@@ -23,7 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 .env
-**/Admin/
-src/hooks
-src/pages/Admin
-src/components/Admin
