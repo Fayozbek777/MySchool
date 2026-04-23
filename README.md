@@ -6,32 +6,33 @@ Professional ta'lim markazi uchun mo'ljallangan, **Lux Modern** dizayn tizimidag
 
 ### 🎨 Frontend Stack
 
-- **Core:** `React 18` + `Vite` (Ultra Fast Build)
-- **Language:** `TypeScript` (Type Safety)
-- **Styling:** `Tailwind CSS` + `SCSS` (Modular Styling)
-- **Animations:** `Framer Motion` + `AOS` (Smooth 60fps)
-- **3D Elements:** `Three.js` + `@react-three/fiber`
+- **Core:** `React 18` + `Vite`
+- **Language:** `JavaScript`
+- **Styling:** `Tailwind CSS`
+- **Animations:** `Framer Motion` + `AOS` + `GSAP`
+
+### ⚙️ Admin Dashboard
+
+Barcha jarayonlarni boshqarish paneli:
+
+- **Courses:** Kurslarni boshqarish (CRUD)
+- **Teachers:** O'qituvchilar ro'yxati (CRUD)
+- **Reviews:** Talabalar fikrlari moderatsiyasi (CRUD)
+- **Control:** Statistika va foydalanuvchilar
 
 ### 🛠 Libraries & Tools
 
-- **State Management:** `Redux Toolkit`
-- **Navigation:** `React Router DOM v6`
-- **API Client:** `Apollo Client` (GraphQL)
-- **UI Components:** `Swiper JS`, `Lucide React`, `React Hot Toast`
-- **Optimization:** `React Loading Skeleton`, `Lazy Loading`
-- **Internationalization:** `i18next`
-
---- SOON
+- **State:** `Redux Toolkit`
+- **Navigation:** `React Router v6`
+- **UI:** `Lucide React`, `Swiper JS`, `React Hot Toast`
+- **UX:** `Skeleton Loading`, `Lazy Load`, `i18next`, `Perfomance`
 
 ### ⚡ Backend Infrastructure
 
-- **Stak:** `SupaBase `
-- **ORM:** `SQLAlchemy`
-- **Database:** `PostgreSQL`
-- **Auth:** `JWT`
+- **Platform:** `SupaBase`
+- **Database:** `PostgreSQL` (SQLAlchemy ORM)
+- **Security:** `JWT Auth`
 
 ---
 
 **Designed with 🖤 by Fayozbek Baxromov**
-
-# MySchool
